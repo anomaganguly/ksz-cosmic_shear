@@ -1,0 +1,17 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Pipeline outputs (regenerate with the scripts; see README)
+results/lensing_kernels_full_range_*/
+results/cross_and_auto_correlations/
+results/snr_sweep/
+*.bak*
+logs/
+*.out
+*.err
+
+# Figures written by the notebook
+notebooks/*.pdf
+notebooks/*.png
